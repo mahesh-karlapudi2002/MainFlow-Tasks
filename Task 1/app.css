@@ -1,0 +1,42 @@
+/* *{
+    margin: 0;
+    box-sizing: border-box;
+} */
+body {
+    background-image: url("car.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ul {
+    list-style-type:none;
+    background-color: transparent;
+    overflow: hidden;
+
+}
+li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #f3d1d1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+       color: black;
+       background-color:brown
+  }
+
+  .content p {
+    position: absolute;
+    top: 40%;
+    color: rgba(82, 225, 30, 0.6);
+    padding: 10px;
+    margin: 20px;
+    width: 70%;
+    text-align:left;
+    font-size: 30px;
+  }
